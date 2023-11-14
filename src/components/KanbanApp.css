@@ -1,0 +1,58 @@
+/* KanbanApp.css */
+
+.kanban-app {
+    font-family: 'Arial, sans-serif';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  .kanban-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f5f8;
+    padding: 10px;
+  }
+  
+  .kanban-settings-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .kanban-settings-icon {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+  }
+  
+  .kanban-display-button {
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    position: relative;
+  }
+  
+  .kanban-dropdown-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .kanban-add-button {
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+
+  

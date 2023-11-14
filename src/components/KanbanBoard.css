@@ -1,0 +1,52 @@
+.kanban-board {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f5f4f8;
+    height:auto;
+  }
+  
+  .kanban-user-group {
+    width: 10%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  .kanban-user-group.columns {
+    display: grid;
+    grid-template-columns: repeat(3, 10fr);
+    gap: 100px; /* Adjust the gap as needed */
+  }
+  
+  .kanban-h2 {
+    margin-bottom: 10px;
+  }
+  
+  .kanban-ticket {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-right: 50px;
+    padding-inline: 50px;
+    
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .kanban-ticket-content {
+    flex: 1;
+  }
+  
+  .kanban-ticket button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    cursor: pointer;
+  }
+  
